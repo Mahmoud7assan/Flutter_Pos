@@ -1,0 +1,27 @@
+name: pos_system
+description: POS Systems for cafes
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  lint: ^1.5.3
+
+flutter:
+  uses-material-design: true
+
+fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Gilroy-Light.ttf
+          weight: 300
